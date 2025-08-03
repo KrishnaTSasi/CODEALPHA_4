@@ -1,6 +1,6 @@
 # CODEALPHA_4
 
-TASK 4: Sales Prediction using Python
+## TASK 4: Sales Prediction using Python
 
 This project predicts product sales based on advertising spend in TV, Radio and Newspaper channels using various regression models.
 
@@ -21,7 +21,7 @@ This project predicts product sales based on advertising spend in TV, Radio and 
 - xgboost
 - plotly (for visualization)
 
- **Dataset Features:**
+## **Dataset Features:**
 
 | Feature      | Description                             |
 | ------------ | --------------------------------------- |
@@ -31,7 +31,7 @@ This project predicts product sales based on advertising spend in TV, Radio and 
 | `Sales`      | Sales generated (in thousands of units) |
 | `Unnamed: 0` | Index column (not used)                 |
 
- **Steps Followed:**
+## **Steps Followed:**
 
 #### 1. **Data Loading and Preprocessing**
 
@@ -65,7 +65,7 @@ This project predicts product sales based on advertising spend in TV, Radio and 
 | Random Forest Regressor | 0.981   |
 | XGBoost Regressor       | 0.972   |
 
- **Conclusion:**
+## **Conclusion:**
 
 * Advertising spend, especially on **TV and Radio**, plays a crucial role in boosting sales.
 * **Newspaper ads** offer diminishing returns.
